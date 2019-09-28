@@ -1,6 +1,8 @@
 [buckaroo]
-  dependencies = buckaroo.github.dasmaichen.eigen//:eigen
+  dependencies = buckaroo.github.dasmaichen.eigen//:eigen buckaroo.github.dasmaichen.nanovg//:nanovg
   github.com/dasmaichen/eigen = buckaroo.github.dasmaichen.eigen
+  github.com/dasmaichen/nanovg = buckaroo.github.dasmaichen.nanovg
 
 [repositories]
   buckaroo.github.dasmaichen.eigen = buckaroo/github/dasmaichen/eigen
+  buckaroo.github.dasmaichen.nanovg = buckaroo/github/dasmaichen/nanovg

@@ -1,9 +1,17 @@
-manifest = "d583f666e5bd78b08cbadf755fafcc831186fb3813c3b9d76b92c0029987b9c8"
+manifest = "6de1d4be4c2f4985cf7fc1d9272f7ae479dbdce1c61ad90e1ba01c793464e72a"
 
 [[dependency]]
 package = "github.com/dasmaichen/eigen"
 target = "//:eigen"
 
+[[dependency]]
+package = "github.com/dasmaichen/nanovg"
+target = "//:nanovg"
+
 [lock."github.com/dasmaichen/eigen"]
 versions = [ "branch=master" ]
 revision = "e98c9337dd8c459e2e6933ec44004935463d3dfc"
+
+[lock."github.com/dasmaichen/nanovg"]
+versions = [ "branch=master" ]
+revision = "949de9d5834f553c7141d44c910ce117e44c2a53"

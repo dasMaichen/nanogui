@@ -4,3 +4,7 @@ targets = [ "//:nanogui" ]
 package = "github.com/dasmaichen/eigen"
 version = "*"
 
+[[dependency]]
+package = "github.com/dasmaichen/nanovg"
+version = "branch=master"
+
