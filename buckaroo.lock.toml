@@ -1,0 +1,9 @@
+manifest = "d583f666e5bd78b08cbadf755fafcc831186fb3813c3b9d76b92c0029987b9c8"
+
+[[dependency]]
+package = "github.com/dasmaichen/eigen"
+target = "//:eigen"
+
+[lock."github.com/dasmaichen/eigen"]
+versions = [ "branch=master" ]
+revision = "e98c9337dd8c459e2e6933ec44004935463d3dfc"

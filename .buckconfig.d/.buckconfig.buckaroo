@@ -1,0 +1,6 @@
+[buckaroo]
+  dependencies = buckaroo.github.dasmaichen.eigen//:eigen
+  github.com/dasmaichen/eigen = buckaroo.github.dasmaichen.eigen
+
+[repositories]
+  buckaroo.github.dasmaichen.eigen = buckaroo/github/dasmaichen/eigen
