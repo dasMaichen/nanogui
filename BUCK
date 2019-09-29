@@ -6,6 +6,9 @@ cxx_library(
   exported_headers = subdir_glob([
     ('include/nanogui','**/*.h'),
   ]),
+  srcs = glob([
+        'src/**/*.cpp',
+    ]),
   visibility = ['PUBLIC'],
   deps = buckaroo_deps(),
 )
