@@ -1,14 +1,13 @@
 load('//:buckaroo_macros.bzl','buckaroo_deps')
 
-cxx_library(
+prebuilt_cxx_library(
   name = 'nanogui',
+  soname = 'libnanogui.so',
+  shared_lib = 'libnanogui.so'
   header_namespace = 'nanogui',
   exported_headers = subdir_glob([
     ('include/nanogui','**/*.h'),
   ]),
-  srcs = glob([
-        'src/**/*.cpp',
-    ]),
-  visibility = ['PUBLIC'],
   deps = buckaroo_deps(),
+  visibility = ['PUBLIC']
 )
